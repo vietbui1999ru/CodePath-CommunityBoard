@@ -1,0 +1,61 @@
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topBanner {
+  width: 80%;
+  height: 100px;
+  margin-top: 0px;
+  background-color: rgb(255, 213, 5);
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.legoBox {
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid black;
+}
+
+.topTitle {
+  width: 100%;
+  height: 20%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* 3 equal columns */
+  gap: 24px;
+  padding: 24px;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 80%;
+  padding: 16px;
+}
+
+.card img {
+  max-width: 100%;
+  height: 300px;
+}
